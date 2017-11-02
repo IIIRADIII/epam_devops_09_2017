@@ -10,8 +10,18 @@ public class PrintArray {
     }
 }
 
+/**
+ * Provides ability to output array of objects in console
+ */
 class Printer {
-    <T> void printArray(T[] arr){
+
+    /**
+     * Outputs every item of arr array in console from new line using toString() method.=
+     *
+     * @param arr
+     * @param <T>
+     */
+    <T> void printArray(T[] arr) {
         for (T item : arr) {
             System.out.println(item.toString());
         }
