@@ -1,4 +1,4 @@
-package com.epam.rmusabirov.tasks;
+package main.java.com.epam.rmusabirov.tasks;
 
 /**
  * Finds the smallest and the shortest string in args[]

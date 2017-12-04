@@ -1,4 +1,4 @@
-package com.epam.rmusabirov.tasks;
+package main.java.com.epam.rmusabirov.tasks;
 
 import java.util.*;
 

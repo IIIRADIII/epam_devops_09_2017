@@ -1,5 +1,6 @@
 package com.epam.rmusabirov.tasks;
 
+import main.java.com.epam.rmusabirov.tasks.Printer;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
