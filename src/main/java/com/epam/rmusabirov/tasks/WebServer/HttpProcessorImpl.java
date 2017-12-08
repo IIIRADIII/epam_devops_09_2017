@@ -20,7 +20,7 @@ public class HttpProcessorImpl implements HttpProcessor, Closeable {
                 response.setResponseCode(HttpResponse.ResponseCode.BAD_REQUEST);
                 response.setContent("");
             }
-            //TODO need to implement additional logic on order to return actual data.
+            //TODO need to implement additional logic in order to return actual data.
         } catch (IOException ex) {
             ex.printStackTrace();
         }
