@@ -26,5 +26,12 @@ public interface HttpResponse {
             this.code = code;
             this.description = description;
         }
+
+        public String toString() {
+            return this.code + " " + this.description;
+        }
+
+
+
     }
 }
